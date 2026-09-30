@@ -1,0 +1,43 @@
+{
+  "eda_summary": {
+    "n_rows": 3276,
+    "n_cols": 10,
+    "missing_values": {
+      "ph": 491,
+      "Sulfate": 781,
+      "Trihalomethanes": 162
+    },
+    "class_counts": {
+      "0": 1998,
+      "1": 1278
+    },
+    "duplicates": 0
+  },
+  "model_results": {
+    "Logistic Regression": {
+      "accuracy": 0.524390243902439,
+      "precision": 0.4146341463414634,
+      "recall": 0.53125,
+      "f1": 0.4657534246575342,
+      "roc_auc": 0.5474316406249999,
+      "cv_f1_mean": 0.4169400204718855
+    },
+    "KNN": {
+      "accuracy": 0.6173780487804879,
+      "precision": 0.5213675213675214,
+      "recall": 0.23828125,
+      "f1": 0.32707774798927614,
+      "roc_auc": 0.6051171875000001,
+      "cv_f1_mean": 0.3713846328872137
+    },
+    "Decision Tree": {
+      "accuracy": 0.6387195121951219,
+      "precision": 0.5959595959595959,
+      "recall": 0.23046875,
+      "f1": 0.3323943661971831,
+      "roc_auc": 0.6065185546875,
+      "cv_f1_mean": 0.35318969067686085
+    }
+  },
+  "best_model": "Decision Tree"
+}
