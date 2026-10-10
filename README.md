@@ -3,6 +3,12 @@
 
 Classifies a water sample as **potable (safe)** or **not potable (unsafe)** using nine measurable physicochemical properties, with a Streamlit demo app for live predictions.
 
+## 🚀 Live Demo
+
+**Try AquaAI — Water Intelligence:** [Launch Live App](https://water-potability-ai.streamlit.app/)
+
+AquaAI predicts water potability using machine learning, helping users assess whether a water sample may be suitable for drinking based on its physicochemical properties.
+
 ## Problem
 | | |
 |---|---|
