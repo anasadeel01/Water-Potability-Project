@@ -72,11 +72,8 @@ desktop.ini
 # *.xls
 
 # Trained models
-*.pkl
-*.pickle
-*.joblib
-*.h5
-*.keras
+# Keep model files available for deployment
+!models/*.pkl
 
 # =========================
 # Streamlit
